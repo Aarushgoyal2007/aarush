@@ -1,0 +1,12 @@
+a=int(input("eng marks"))
+b=int(input("maths marks"))
+c=int(input("hindi marks"))
+sum = a+b+c
+print(sum)
+avg = sum/3
+print(avg)
+if avg>=30:
+	print("grade=A1")
+elif avg>=20:
+	print("grade=A")
+
